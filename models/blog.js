@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
+const { Schema } = mongoose; // Import Schema from mongoose
 
-const blogSchema = new mongoose.Schema(
+const blogSchema = new Schema( // Use Schema for defining the structure
   {
     title: {
       type: String,
