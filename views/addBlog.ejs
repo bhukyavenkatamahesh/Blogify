@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Blog</title>
+    <%- include('./partials/head') %>
+</head>
+
+<body>
+    <%- include('./partials/nav') %>
+
+        <div class="container mt-3">
+            <form>
+                <div class="mb-3">
+                    <label for="text" class="form-label">Title</label>
+                    <input type="text" class="form-control" id="text" aria-describedby="text" name="title">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+            </form>
+        </div>
+
+
+        <%- include('./partials/script') %>
+</body>
+
+</html>
